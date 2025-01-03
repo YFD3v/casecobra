@@ -44,7 +44,7 @@ const Thankyou = () => {
     );
   }
 
-  const { configuration, BillingAddress, shippingAddress, amount, user } = data;
+  const { configuration, BillingAddress, shippingAddress, amount } = data;
   const { color } = configuration;
 
   return (

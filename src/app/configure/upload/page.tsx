@@ -66,7 +66,7 @@ const UploadPage = () => {
           onDragEnter={() => setIsDragOver(true)}
           onDragLeave={() => setIsDragOver(false)}
         >
-          {({ getRootProps, getInputProps, isDragActive, isDragReject }) => (
+          {({ getRootProps, getInputProps, }) => (
             <div
               className="flex-1 flex justify-center flex-col items-center h-full w-full"
               {...getRootProps()}
